@@ -16,3 +16,4 @@ Our agorithm works as a classification neural network. We work. We used tranfer 
 2. set bash environment variable 'NET=/model/elephant
 
 [View a video explanation here](video link)
+https://youtu.be/0D_EOa8aQ2E
