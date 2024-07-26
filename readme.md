@@ -14,13 +14,13 @@ Add short description of project here >
 
 Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
 
-Our agorithm works as a classification neural network. We work. We used tranfer learning to retrain the resnet-18 based imagenet classifier. We ran training on over 300 images of each type of aircraft. Over the course of the hour, our test accuary reached 52.97% over 34 epocs. Our model started at 15% accurac. If we were able to run our training for longer, we likely would have reached much higher accurary.
+Our agorithm works as a classification neural network. We work. We used tranfer learning to retrain the resnet-18 based imagenet classifier. We ran training on over 300 images of each type of elephants. Over the course of the hour, our test accuary reached 52.97% over 34 epocs. Our model started at 15% accurac. If we were able to run our training for longer, we likely would have reached much higher accurary.
 ## Running this project
 0. download the model here https://drive.google.com/drive/folders/1f2hbOHkdO5L5KFJ0gs9gWeJwA8-cb4wc?usp=sharing
 1. Navigate to jetson-inference
 3. then navigate to python/training/classification
 4. set bash environment variable 'NET=/model/elephant
 5. input DATASET=data/elephants
-6. 6. 
+6. imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/African/af_te1.jpg
 
 video: https://youtu.be/0D_EOa8aQ2E
