@@ -6,9 +6,9 @@ Many people cannot recognise the African elephants and the Asian elephants. My p
 
 
 Add short description of project here > 
-![image](https://github.com/user-attachments/assets/c43fe7d4-e4e8-475e-b067-293cd12fcd49)
 
 ![add image descrition here](direct image link here)
+![image](https://github.com/user-attachments/assets/c43fe7d4-e4e8-475e-b067-293cd12fcd49)
 
 ## The Algorithm
 
@@ -17,8 +17,11 @@ Add an explanation of the algorithm and how it works. Make sure to include detai
 Our agorithm works as a classification neural network. We work. We used tranfer learning to retrain the resnet-18 based imagenet classifier. We ran training on over 300 images of each type of aircraft. Over the course of the hour, our test accuary reached 52.97% over 34 epocs. Our model started at 15% accurac. If we were able to run our training for longer, we likely would have reached much higher accurary.
 ## Running this project
 
-1. Navigate to the jetson-inference/python/training/classification
-2. set bash environment variable 'NET=/model/elephant
+1. Navigate to jetson-inference, and input 'echo 1 | sudo tee /proc/sys/vm/overcommit_memory'
+2. input './docker/run.sh'
+3. then navigate to python/training/classification
+4. set bash environment variable 'NET=/model/elephant
+5. input DATASET=data/elephants
 
 [View a video explanation here](video link)
 https://youtu.be/0D_EOa8aQ2E
