@@ -1,5 +1,9 @@
 # Project Name
 Many people cannot recognise the African elephants and the Asian elephants. My project is able to classify the African elephants and the Asian elephants in service today, and help the people who want to classify the diffierent of the elephants to study, do research or do some protecting job. My classification accuacy converged to 52.97% on the test data used; User can take a photo of the elephants they are about to board and upload it to their Jetson Nano to recive rapid classification. 
+![af_tr1](https://github.com/user-attachments/assets/e490be70-5d1e-4268-8cbd-8fe29cf6e071)
+![as_tr53](https://github.com/user-attachments/assets/0ed11b83-6730-4ee4-801e-1ad5689b233a)
+
+
 Add short description of project here > 
 ![image](https://github.com/user-attachments/assets/c43fe7d4-e4e8-475e-b067-293cd12fcd49)
 
